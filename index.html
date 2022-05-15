@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/favicon.png" />
+    <title>metafiyielders.com</title>
+    <link rel="stylesheet" href="css/custom-small.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/l.js" async></script>
+  </head>
+  <body class="homepage" tabindex="-1">
+    <header class="header">
+      <div class="row">
+        <a class="logo" href="/">
+          <img class="logo-white" src="images/logo.png" alt="Logo" />
+          <img class="logo-blue" src="images/logo-black.png" alt="Logo" />
+        </a>
+
+        <div class="nav-right">
+          <a href="#" class="btn login-btn auth-btn">Login</a>
+          <a href="?a=signup" class="btn main-btn"
+            ><span>Create account</span></a
+          >
+          <a title="facebook group"
+            ><img src="images/facebook.png" alt="facebook group" width="30"
+          /></a>
+          <a title="Discord group"
+            ><img src="images/discord.png" alt="discord group" width="30"
+          /></a>
+
+          <style>
+            .hung {
+            }
+            .lang {
+              display: block;
+              width: 70px;
+              position: relative;
+              z-index: 100;
+              text-align: left;
+              flex-shrink: 0;
+              -ms-flex-negative: 0;
+            }
+            .lang__current {
+              display: block;
+              width: 100%;
+              height: 30px;
+              position: relative;
+              line-height: 30px;
+              padding-left: 30px;
+              background: #fff;
+              box-shadow: 0 0 2px 0 rgb(0 0 0 / 30%);
+              border-radius: 2px;
+              font-size: 13px;
+              font-weight: 700;
+              font-family: Arial, Helvetica, sans-serif;
+              color: #323232;
+              cursor: default;
+              text-transform: uppercase;
+              overflow: hidden;
+            }
+            .lang.opened .lang__list {
+              display: block;
+            }
+            .lang__item img {
+              margin-right: 6px;
+              vertical-align: baseline;
+            }
+            .lang__list {
+              display: none;
+              list-style-type: none;
+              padding: 10px;
+              margin: 0;
+              background: #fff;
+              box-shadow: 0 0 2px 0 rgb(0 0 0 / 30%);
+              border-radius: 2px;
+              position: absolute;
+              margin-top: 5px;
+              right: 5%;
+            }
+            .lang__item {
+              display: block;
+              width: 100%;
+              height: 28px;
+              padding-left: 9px;
+              line-height: 28px;
+              color: #323232;
+              font-size: 13px;
+              font-weight: 700;
+              font-family: Arial, Helvetica, sans-serif;
+              text-decoration: none;
+              text-transform: uppercase;
+            }
+            .lang__current:before {
+              content: "";
+              display: block;
+              width: 0;
+              height: 0;
+              position: absolute;
+              top: 13px;
+              right: 7px;
+              border-left: 4px solid transparent;
+              border-right: 4px solid transparent;
+              border-top: 4px solid #d0d0d0;
+            }
+            .lang.opened .lang__current:before {
+              content: "";
+              display: block;
+              width: 0;
+              height: 0;
+              position: absolute;
+              top: 12px;
+              right: 7px;
+              border-left: 4px solid transparent;
+              border-right: 4px solid transparent;
+              border-top: none;
+              border-bottom: 4px solid #d0d0d0;
+            }
+            .lang__current img {
+              display: block;
+              position: absolute;
+              top: 9px;
+              left: 9px;
+            }
+            .hd_db {
+              display: block !important;
+            }
+          </style>
+          <img src="images/en_b.png" width="30" onclick="show_langs()" />
+
+          <div class="lang__list" id="languages_flags">
+            <a href="?lang=en">
+              <img src="images/en_b.png" width="30" />
+            </a>
+            <a href="?lang=ru">
+              <img src="images/ru_b.png" width="30" />
+            </a>
+            <a href="?lang=fr">
+              <img src="images/fr_b.png" width="30" />
+            </a>
+            <a href="?lang=ph">
+              <img src="images/ph_b.png" width="30" />
+            </a>
+          </div>
+
+          <script>
+            function show_langs() {
+              $("#languages_flags").toggleClass("hd_db");
+            }
+          </script>
+        </div>
+        <div class="menu-trigger"><span></span><span></span><span></span></div>
+        <div class="mobile-btn">
+          <a href="#" class="login-btn-m auth-btn">
+            <i class="icon-lock"></i>
+          </a>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="inner-wrapper">
+          <div class="menu-middle">
+            <span>More about metafiyielders.com</span>
+            <ul>
+              <li><a href="?a=investments">Investments</a></li>
+              <li><a href="?a=partners">Partners</a></li>
+              <li><a href="?a=faq">FAQs</a></li>
+              <li><a href="?a=support">Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div id="fullpage">
+        <div class="section slide-1" data-href="slide-1">
+          <div class="row">
+            <div class="small-12 medium-5 large-4 column text-container">
+              <div>
+                <h3 class="gcnrpc">4.2% Daily Executive Yield</h3>
+                <div class="row_cc">
+                  <div class="col_12_cc col_md_6_cc bg-white amount1">
+                    <div class="selecinfo">
+                      <div class="selection_cc">
+                        <div
+                          class="selcoin row_cc"
+                          tabindex="0"
+                          role="list"
+                          onclick="show_coins()"
+                          style="width: 90%"
+                          id="currencies"
+                        >
+                          <img
+                            class="col_cc"
+                            src="images/bitcoin.png"
+                            width="25"
+                            height="25"
+                            data-coin="1"
+                            style="max-width: 25px; max-height: 25px"
+                            id="curr_img"
+                          />
+                          <p class="col_cc imgp" id="curr_p">btc</p>
+                        </div>
+                        <div class="coinarrow">
+                          <img
+                            src="images/arrow-up.png"
+                            width="13"
+                            height="8"
+                            onclick="change_currency_up()"
+                          />
+                          <img
+                            src="images/arrow-down.png"
+                            width="13"
+                            height="8"
+                            onclick="change_currency_down()"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        class="lable2"
+                        style="color: #000000 !important; font-size: 18px"
+                      >
+                        Crypto
+                      </p>
+                    </div>
+                    <div class="amount2">
+                      <div class="amount3">
+                        <div class="plus_cc">
+                          <img
+                            alt="subtract button"
+                            src="images/min.png"
+                            style="
+                              width: 15px;
+                              height: 2px;
+                              margin-top: 6px;
+                              margin-right: 4px;
+                            "
+                            onclick="reduce_amount()"
+                          />
+                          <img
+                            alt="add button"
+                            src="images/add.png"
+                            style="width: 15px; height: 15px"
+                            onclick="increase_amount()"
+                          />
+                        </div>
+
+                        <input
+                          class="subamount"
+                          type="text"
+                          inputmode="decimal"
+                          value="10000"
+                          min="10000"
+                          onchange="hd_calculator()"
+                          onclick="hd_calculator()"
+                          onkeyup="hd_calculator()"
+                          id="inv_amount"
+                        />
+                        <p
+                          id="calculator"
+                          class="lable1"
+                          style="color: #000000 !important; font-size: 20px"
+                        >
+                          Investment Amount
+                        </p>
+                      </div>
+                    </div>
+                    <br />
+                    <p
+                      class="l_calc"
+                      style="color: #000000 !important; font-size: 20px"
+                    >
+                      Period (Days)
+                    </p>
+                    <div class="cemqDa">
+                      <input
+                        type="range"
+                        min="1"
+                        max="30"
+                        step="1"
+                        data-orientation="vertical"
+                        value="30"
+                        onchange="hd_calculator()"
+                        onclick="hd_calculator()"
+                        id="days_range"
+                        style="width: 100%"
+                      />
+                      <span id="days">30 Business Days</span>
+                    </div>
+                    <p
+                      class="l_calc"
+                      style="color: #000000 !important; font-size: 20px"
+                    >
+                      Compounding
+                    </p>
+                    <div class="cemqDa">
+                      <input
+                        type="range"
+                        min="10"
+                        max="28"
+                        step="3"
+                        data-orientation="vertical"
+                        value="28"
+                        onchange="hd_calculator()"
+                        onclick="hd_calculator()"
+                        id="compounding_range"
+                        style="width: 100%"
+                      />
+                      <span id="compounding">28</span>% COMPOUNDING
+                    </div>
+                  </div>
+                  <div
+                    class="coin_list"
+                    id="coins_list"
+                    style="z-index: 99; top: 75px; left: 15px; display: none"
+                  >
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('bitcoin')"
+                    >
+                      <img src="images/bitcoin.png" alt="Bitcoin" /><span
+                        >Bitcoin</span
+                      >
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('ethereum')"
+                    >
+                      <img src="images/ethereum.png" alt="Ether" /><span
+                        >Ether</span
+                      >
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('solana')"
+                    >
+                      <img src="images/solana.png" alt="Solana" /><span
+                        >Solana</span
+                      >
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('cardano')"
+                    >
+                      <img src="images/cardano.png" alt="Cardano" /><span
+                        >Cardano</span
+                      >
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('polkadot')"
+                    >
+                      <img src="images/polkadot.png" alt="Polkadot" /><span
+                        >Polkadot</span
+                      >
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('avalanche')"
+                    >
+                      <img src="images/avalanche.png" alt="Avalanche" /><span
+                        >Avalanche</span
+                      >
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('doge')"
+                    >
+                      <img src="images/doge.png" alt="Doge" /><span>Doge</span>
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('polygon')"
+                    >
+                      <img src="images/polygon.png" alt="Polygon" /><span
+                        >Polygon</span
+                      >
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('litecoin')"
+                    >
+                      <img src="images/litecoin.png" alt="Litecoin" /><span
+                        >Litecoin</span
+                      >
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('uni')"
+                    >
+                      <img src="images/uni.png" alt="UNI" /><span>UNI</span>
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('link')"
+                    >
+                      <img src="images/link.png" alt="LINK" /><span>LINK</span>
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('algorand')"
+                    >
+                      <img src="images/algorand.png" alt="Algorand" /><span
+                        >Algorand</span
+                      >
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('bitcoin-cash')"
+                    >
+                      <img
+                        src="images/bitcoin-cash.png"
+                        alt="Bitcoin Cash"
+                      /><span>Bitcoin Cash</span>
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('filecoin')"
+                    >
+                      <img src="images/filecoin.png" alt="Filecoin" /><span
+                        >Filecoin</span
+                      >
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('usdt')"
+                    >
+                      <img src="images/usdt.png" alt="USDT" /><span>USDT</span>
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('usdc')"
+                    >
+                      <img src="images/usdc.png" alt="USDC" /><span>USDC</span>
+                    </div>
+                    <div
+                      role="button"
+                      tabindex="0"
+                      class="coin_item"
+                      onclick="change_currency('busd')"
+                    >
+                      <img src="images/busd.png" alt="BUSD" /><span>BUSD</span>
+                    </div>
+                  </div>
+
+                  <div class="col_12_cc col_md_6_cc bg_blue_cc">
+                    <div
+                      style="
+                        background-image: linear-gradient(
+                          to right,
+                          #33c474,
+                          #0d0c39
+                        );
+                        border-radius: 6px;
+                        font-size: 15px;
+                        font-weight: 700;
+                        color: #ffffff;
+                        width: 175px;
+                        position: absolute;
+                        right: -50px;
+                        top: -25px;
+                        padding: 7px 15px;
+                        text-align: center;
+                      "
+                    >
+                      <span style="font-size: 17px; font-weight: 900">240</span>
+                      Packs Left.
+                    </div>
+
+                    <div class="gaRhFb">
+                      <div class="gQqTmi" style="color: #ffffff">
+                        <div class="doqytP">
+                          <p class="TXNok">$</p>
+                          <div class="fZMCSk" id="daily_profit">420.00</div>
+                        </div>
+                      </div>
+                      <div class="ePSWLS">USD Interest Per Day</div>
+                      <div class="mAZgN">
+                        <img
+                          src="images/bitcoin.png"
+                          id="curr_img_b"
+                          style="position: absolute"
+                        />
+                        <div
+                          class="cFLOgc"
+                          id="total_profit"
+                          style="margin-left: 32px"
+                        >
+                          12600.00
+                        </div>
+                      </div>
+                      <div class="ePSWLS">
+                        Total Profit In
+                        <span
+                          style="font-size: 15px; font-weight: 700"
+                          id="days_b"
+                          >30 Business Days</span
+                        >
+                      </div>
+                      <div class="mAZgN">
+                        <p class="TXNok">$</p>
+                        <div class="cFLOgc" id="total_earning">22600.00</div>
+                      </div>
+                      <div class="ePSWLS">
+                        Total Earning After 30 Business Days<br />With 0%
+                        Compounding
+                      </div>
+                      <div class="mAZgN">
+                        <p class="TXNok">$</p>
+                        <div class="cFLOgc" id="total_earning_compound">
+                          25004.30
+                        </div>
+                      </div>
+                      <div class="ePSWLS">
+                        Total Earning With <span id="compounding_b">28</span>%
+                        compounding<br />(After 30 Business)
+                      </div>
+                      <p style="font-size: 14px; color: #ffffff">
+                        5% Reward Cash Back For Investor<br />5% Reward Cash
+                        Back For Upline
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <script>
+                var coins = [
+                  "bitcoin",
+                  "ethereum",
+                  "solana",
+                  "cardano",
+                  "polkadot",
+                  "avalanche",
+                  "doge",
+                  "polygon",
+                  "litecoin",
+                  "uni",
+                  "link",
+                  "algorand",
+                  "bitcoin-cash",
+                  "filecoin",
+                  "usdt",
+                  "usdc",
+                  "busd",
+                ];
+
+                var current_coin = "bitcoin";
+                var current_coin_id = 0;
+                var coin_ids = coins.length;
+
+                function change_currency_up() {
+                  if (current_coin_id + 1 >= coin_ids) {
+                    current_coin_id = 0;
+                  } else {
+                    current_coin_id++;
+                  }
+                  change_currency(coins[current_coin_id], false);
+                }
+
+                function change_currency_down() {
+                  if (current_coin_id <= 0) {
+                    current_coin_id = coin_ids - 1;
+                  } else {
+                    current_coin_id--;
+                  }
+                  change_currency(coins[current_coin_id], false);
+                }
+
+                function change_currency(currency, showcoins = true) {
+                  var img_src = "assets/images/cryptos/" + currency + ".png";
+                  var coin_id = coins.indexOf(currency);
+                  jQuery("#curr_img")
+                    .data("coin", coin_id)
+                    .attr("src", img_src);
+                  jQuery("#curr_img_b").attr("src", img_src);
+                  jQuery("#curr_p").html(currency);
+                  if (showcoins) {
+                    show_coins();
+                  }
+                }
+
+                var client_x;
+                var client_y;
+                var elementOffset = jQuery("#currencies").offset();
+                console.log(elementOffset);
+                jQuery(document).mousemove(function (e) {
+                  client_x = e.clientX;
+                  client_y = e.clientY;
+                  client_x -= elementOffset.left;
+                  client_y = (elementOffset.top - client_y) / 2;
+                });
+
+                function show_coins() {
+                  jQuery("#coins_list")
+                    .css({ top: client_y, left: client_x })
+                    .toggle("display");
+                  console.log({ top: client_y, left: client_x });
+                }
+
+                function reduce_amount() {
+                  var amount = jQuery("#inv_amount").val();
+                  amount = Number(amount) - 10;
+                  jQuery("#inv_amount").val(amount);
+                  hd_calculator();
+                }
+
+                function increase_amount() {
+                  var amount = jQuery("#inv_amount").val();
+                  amount = Number(amount) + 10;
+                  jQuery("#inv_amount").val(amount);
+                  hd_calculator();
+                }
+
+                function hd_calculator() {
+                  const profit = 4.2;
+                  var compounding = jQuery("#compounding_range").val();
+                  compounding = Number(compounding);
+                  jQuery("#compounding").html(compounding);
+                  jQuery("#compounding_b").html(compounding);
+
+                  var days = jQuery("#days_range").val();
+                  days = Number(days);
+                  var day_text;
+                  if (days > 1) {
+                    day_text = " Business Days";
+                  } else {
+                    day_text = " Business Day";
+                  }
+                  var amount = jQuery("#inv_amount").val();
+                  amount = Number(amount);
+
+                  var daily_profit = ((profit * amount) / 100).toFixed(2);
+                  var profit_tot = (days * daily_profit).toFixed(2);
+                  var earning_tot = (
+                    (profit * 30 * amount) / 100 +
+                    amount
+                  ).toFixed(2);
+
+                  var earning_tot_com;
+                  if (compounding === 28) {
+                    earning_tot_com = (1.50043 * amount + amount).toFixed(2);
+                  } else if (compounding === 25) {
+                    earning_tot_com = (1.4720433 * amount + amount).toFixed(2);
+                  } else if (compounding === 22) {
+                    earning_tot_com = (1.4443268 * amount + amount).toFixed(2);
+                  } else if (compounding === 19) {
+                    earning_tot_com = (1.4172634 * amount + amount).toFixed(2);
+                  } else if (compounding === 16) {
+                    earning_tot_com = (1.3908367 * amount + amount).toFixed(2);
+                  } else if (compounding === 13) {
+                    earning_tot_com = (1.3650305 * amount + amount).toFixed(2);
+                  } else if (compounding === 10) {
+                    earning_tot_com = (1.3398291 * amount + amount).toFixed(2);
+                  }
+
+                  jQuery("#days").html(days + day_text);
+                  jQuery("#days_b").html(days + day_text);
+                  jQuery("#daily_profit").html(daily_profit);
+                  jQuery("#total_profit").html(profit_tot);
+                  jQuery("#total_earning").html(earning_tot);
+                  jQuery("#total_earning_compound").html(earning_tot_com);
+                }
+              </script>
+            </div>
+            <div class="small-12 medium-6 column text-container-right">
+              <h4>metafiyielders.com for</h4>
+              <ul>
+                <li><a href="?a=investments">Investments</a></li>
+                <li><a href="?a=partners">Affiliates</a></li>
+                <li><a href="?a=faq">F.A.Qs</a></li>
+                <li><a href="?a=support">Contact </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="mobile-phone-wrapper">
+            <div class="phone">
+              <div class="phone-layer"></div>
+              <div class="screen">
+                <div class="home-screen">
+                  <div class="main-screen">
+                    <div class="logo-row">
+                      <a href="/">
+                        <img src="images/logo.png" alt="Logo" />
+                      </a>
+                    </div>
+                    <div class="msg-list">
+                      <div class="msg-wrap msg-anim">
+                        <span class="msg-title"
+                          >Deposit successfully created!</span
+                        >
+                        <span class="msg-meaning">+ 10 000.00 USDT</span>
+                      </div>
+                      <div class="msg-wrap msg-anim">
+                        <span class="msg-title">Get profit</span>
+                        <span class="msg-meaning">+ 300.00 BTC / 3%</span>
+                      </div>
+                      <div class="msg-wrap msg-anim">
+                        <span class="msg-title">Get partner bonus</span>
+                        <span class="msg-meaning">+ 1000.00 USDT / 3%</span>
+                      </div>
+                      <div class="msg-wrap msg-anim">
+                        <span class="msg-title">Get profit </span>
+                        <span class="msg-meaning">+ 300.00 ETH / 1%</span>
+                      </div>
+                      <div class="msg-wrap msg-anim">
+                        <span class="msg-title">Get partner bonus</span>
+                        <span class="msg-meaning">+ 1000.00 USDT / 7%</span>
+                      </div>
+                    </div>
+                    <div class="btn-row msg-anim-m">
+                      <a href="?a=signup" class="main-btn"
+                        ><span>Create Account</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section slide-2" data-href="slide-2">
+          <div class="left">
+            <div class="content">
+              <div class="inner-wrapper">
+                <div class="a-wrapper">
+                  <h4>Invest with metafiyielders.com</h4>
+                </div>
+                <div class="a-wrapper delay-0">
+                  <h3>
+                    Profits Without Risk on the Crypto you Invest, stake or
+                    transfer
+                  </h3>
+                </div>
+                <div class="a-wrapper delay-1">
+                  <div
+                    style="
+                      position: relative;
+                      padding-bottom: 56.25%;
+                      height: 0;
+                    "
+                  >
+                    <iframe
+                      width="445"
+                      height="250"
+                      src="https://www.youtube.com/embed/POipHbGmOEY"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <p>
+                    Our Platform gives you access to amazing interest by
+                    combining the exciting crypto market, our experienced
+                    investment team and a simple and secure platform to give you
+                    most reliable returns on your investment.
+                  </p>
+                </div>
+                <div class="a-wrapper delay-2 btn-wrap">
+                  <a href="?a=investments" class="btn-limpid"
+                    ><span>More</span></a
+                  >
+                  <a href="?a=signup" class="main-btn"
+                    ><span>Create account</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="content">
+              <div class="inner-wrapper">
+                <div class="a-wrapper delay-3">
+                  <h3>
+                    Investments<br />
+                    with 5 simple steps!
+                  </h3>
+                </div>
+                <div class="prop-row">
+                  <button class="prev-btn" type="button">
+                    <i class="icon-left"></i>
+                  </button>
+                  <ul class="prop-list">
+                    <li class="active">
+                      <div
+                        class="prop-wrapper active"
+                        data-propimg="/assets/images/screen-ph-1.png"
+                      >
+                        <span class="text">Step 1</span>
+                        <p class="sub-text">Register</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        class="prop-wrapper"
+                        data-propimg="/assets/images/screen-ph-2.png"
+                      >
+                        <span class="text">Step 2</span>
+                        <p class="sub-text">Enter amount & create deposit</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        class="prop-wrapper"
+                        data-propimg="/assets/images/screen-ph-3.png"
+                      >
+                        <span class="text">Step 3</span>
+                        <p class="sub-text">Get profit every day</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        class="prop-wrapper"
+                        data-propimg="/assets/images/screen-ph-4.png"
+                      >
+                        <span class="text">Step 4</span>
+                        <p class="sub-text">
+                          Enter your wallet address in settings
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        class="prop-wrapper"
+                        data-propimg="/assets/images/screen-ph-5.png"
+                      >
+                        <span class="text">Step 5</span>
+                        <p class="sub-text">Withdraw profit on your wallet!</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <button class="next-btn" type="button">
+                    <i class="icon-right"></i>
+                  </button>
+                </div>
+                <div class="footnote">
+                  <p>
+                    * Your investments will work as per described on the package
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mobile-phone-wrapper">
+            <div class="phone">
+              <div class="phone-layer"></div>
+              <div class="screen">
+                <div class="screen-inner-wrapper">
+                  <div
+                    class="props-screen"
+                    style="
+                      background-image: url(&#x27;images/screen-ph-1.png&#x27;);
+                    "
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section slide-3 content-left-slide" data-href="slide-3">
+          <div class="row">
+            <img src="images/home_mobile.png" />
+          </div>
+          <div class="bg-wrapper">
+            <div
+              class="bg lazy"
+              data-src="/assets/images/section-three.png"
+            ></div>
+            <div class="row" style="padding-top: 25%">
+              <div class="a-wrapper">
+                <h2>metafiyielders.com</h2>
+              </div>
+              <div class="a-wrapper delay-0">
+                <h3>Exclusive Benefits For Every Investor</h3>
+              </div>
+              <div class="a-wrapper delay-1">
+                <p>
+                  Negotiate crypto interest rates, fiat borrowing, and trading
+                  costs.
+                </p>
+              </div>
+              <div class="a-wrapper delay-2 btn-wrap">
+                <a class="main-btn" href="?a=signup"
+                  ><span>Create account</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section slide-4" data-href="slide-4">
+          <div class="row">
+            <div class="small-12 medium-6 column">
+              <div class="user-feedback">
+                <div class="inner-wrapper">
+                  <div class="decoration-layer">
+                    <div class="bubbles">
+                      <div class="bubble-wrapper">
+                        <div class="bubble"></div>
+                      </div>
+                      <div class="bubble-wrapper">
+                        <div class="bubble"></div>
+                      </div>
+                      <div class="bubble-wrapper">
+                        <div class="bubble"></div>
+                      </div>
+                      <div class="bubble-wrapper">
+                        <div class="bubble"></div>
+                      </div>
+                      <div class="bubble-wrapper">
+                        <div class="bubble"></div>
+                      </div>
+                      <div class="bubble-wrapper">
+                        <div class="bubble"></div>
+                      </div>
+                      <div class="bubble-wrapper">
+                        <div class="bubble"></div>
+                      </div>
+                      <div class="bubble-wrapper">
+                        <div class="bubble"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="users">
+                    <div class="user">
+                      <div class="photo-wrapper">
+                        <img
+                          src="images/feedback-person-1.png"
+                          alt="Nathan Rasmussen"
+                        />
+                      </div>
+                      <div class="feedback-wrapper">
+                        <div class="feedback-inner-wrapper">
+                          <div class="feedback-content">
+                            <div class="item">
+                              <span class="title">Partner:</span>
+                              <span class="meaning">Nathan</span>
+                            </div>
+                            <div class="item">
+                              <span class="title">Team:</span>
+                              <span class="meaning">147 partners</span>
+                            </div>
+                            <div class="item">
+                              <span class="title">Partner bonus:</span>
+                              <span class="meaning">1.210.00 USDT</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user">
+                      <div class="photo-wrapper">
+                        <img
+                          src="images/feedback-person-2.png"
+                          alt="Tyler Dillman"
+                        />
+                      </div>
+                      <div class="feedback-wrapper">
+                        <div class="feedback-inner-wrapper">
+                          <div class="feedback-content">
+                            <div class="item">
+                              <span class="title">Partner:</span>
+                              <span class="meaning">Tyler</span>
+                            </div>
+                            <div class="item">
+                              <span class="title">Team:</span>
+                              <span class="meaning">250 partners</span>
+                            </div>
+                            <div class="item">
+                              <span class="title">Partner bonus:</span>
+                              <span class="meaning">3.755.00 USDT</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user">
+                      <div class="photo-wrapper">
+                        <img
+                          src="images/feedback-person-3.png"
+                          alt="Hannah Weaver"
+                        />
+                      </div>
+                      <div class="feedback-wrapper">
+                        <div class="feedback-inner-wrapper">
+                          <div class="feedback-content">
+                            <div class="item">
+                              <span class="title">Partner:</span>
+                              <span class="meaning">Hannah</span>
+                            </div>
+                            <div class="item">
+                              <span class="title">Team:</span>
+                              <span class="meaning">97 partners</span>
+                            </div>
+                            <div class="item">
+                              <span class="title">Partner bonus:</span>
+                              <span class="meaning">590.00 USDT</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user">
+                      <div class="photo-wrapper">
+                        <img
+                          src="images/feedback-person-4.png"
+                          alt="Simon Anderson"
+                        />
+                      </div>
+                      <div class="feedback-wrapper">
+                        <div class="feedback-inner-wrapper">
+                          <div class="feedback-content">
+                            <div class="item">
+                              <span class="title">Partner:</span>
+                              <span class="meaning">Simon</span>
+                            </div>
+                            <div class="item">
+                              <span class="title">Team:</span>
+                              <span class="meaning">576 partners</span>
+                            </div>
+                            <div class="item">
+                              <span class="title">Partner bonus:</span>
+                              <span class="meaning">5.457.00 USDT</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user">
+                      <div class="photo-wrapper">
+                        <img
+                          src="images/feedback-person-5.png"
+                          alt="Taylor Johansen"
+                        />
+                      </div>
+                      <div class="feedback-wrapper">
+                        <div class="feedback-inner-wrapper">
+                          <div class="feedback-content">
+                            <div class="item">
+                              <span class="title">Partner:</span>
+                              <span class="meaning">Taylor</span>
+                            </div>
+                            <div class="item">
+                              <span class="title">Team:</span>
+                              <span class="meaning">125 partners</span>
+                            </div>
+                            <div class="item">
+                              <span class="title">Partner bonus:</span>
+                              <span class="meaning">1.340.99 USDT</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="small-12 medium-5 large-4 column text-container">
+              <div class="a-wrapper">
+                <h2>
+                  Being a Affiliate of metafiyielders.com is very profitable!
+                </h2>
+              </div>
+              <div class="a-wrapper">
+                <h3>Your own<br />money network</h3>
+              </div>
+              <div class="a-wrapper delay-1">
+                <p>
+                  The Affiliate program of METAFI YIELDERS is designed to become
+                  a growth driver of the platform, scaling our product across
+                  the world. Find out how you can earn from three levels of your
+                  team.
+                </p>
+              </div>
+              <div class="a-wrapper delay-2 btn-wrap">
+                <a href="?a=partners" class="btn-limpid"><span>More</span></a>
+                <a href="?a=signup" class="main-btn"
+                  ><span>Create account</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section contact-slide" data-href="slide-5">
+          <div class="bg lazy" data-src="/assets/images/section-five.png"></div>
+          <div class="row">
+            <div class="small-12 medium-6 large-5 column text-container">
+              <div class="a-wrapper">
+                <h2>Securing your Crypto</h2>
+              </div>
+              <div class="a-wrapper delay-0">
+                <h3>
+                  Let's<br />
+                  get started!
+                </h3>
+              </div>
+              <div class="a-wrapper delay-1">
+                <p>
+                  Our platform uses encryption in transit, encryption at rest
+                  and address whitelisting to ensure that your assets are safe
+                  whilst you invest and earn. We take security very seriously to
+                  ensure that you have the tools to buy, Invest and earn income
+                  on your crypto as safely as possible.!
+                </p>
+              </div>
+              <div class="a-wrapper delay-2 btn-wrap">
+                <a class="main-btn" href="?a=signup"
+                  ><span>Create account</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="animation-bg"></div>
+      <div class="backgrounds-wrapper">
+        <div class="bg-wrapper slide-3-bg">
+          <div
+            class="bg lazy"
+            data-src="/assets/images/section-three.png"
+          ></div>
+        </div>
+        <div class="bg-wrapper slide-5-bg">
+          <div class="bg lazy" data-src="/assets/images/section-five.png"></div>
+        </div>
+      </div>
+      <div class="mobile-phone-wrapper">
+        <div class="phone">
+          <div class="phone-layer"></div>
+          <div class="screen">
+            <div class="screen-inner-wrapper">
+              <div class="home-screen">
+                <div class="main-screen">
+                  <div class="logo-row">
+                    <a href="/">
+                      <img src="images/logo.png" alt="Logo" />
+                    </a>
+                  </div>
+                  <div class="msg-list">
+                    <div class="msg-wrap msg-anim">
+                      <span class="msg-title"
+                        >Deposit successfully created!</span
+                      >
+                      <span class="msg-meaning">+ 10 000.00 USDT</span>
+                    </div>
+                    <div class="msg-wrap msg-anim">
+                      <span class="msg-title">Get profit</span>
+                      <span class="msg-meaning">+ 300.00 USDT / 1%</span>
+                    </div>
+                    <div class="msg-wrap msg-anim">
+                      <span class="msg-title">Get partner bonus</span>
+                      <span class="msg-meaning">+ 1000.00 USDT / 3%</span>
+                    </div>
+                    <div class="msg-wrap msg-anim">
+                      <span class="msg-title">Get profit </span>
+                      <span class="msg-meaning">+ 300.00 USDT / 3%</span>
+                    </div>
+                    <div class="msg-wrap msg-anim">
+                      <span class="msg-title">Get partner bonus</span>
+                      <span class="msg-meaning">+ 1000.00 USDT / 7%</span>
+                    </div>
+                  </div>
+                  <div class="btn-row msg-anim">
+                    <a href="?a=signup" class="main-btn"
+                      ><span>Create account</span></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div
+                class="props-screen"
+                style="
+                  background-image: url(&#x27;images/screen-ph-1.png&#x27;);
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line-wrapper">
+        <div class="loading-line">
+          <div class="numbers-wrapper">
+            0
+            <div class="inner-wrapper"></div>
+          </div>
+          <div class="loading-line-inner-wrapper"></div>
+          <div class="scroll-down-wrapper">
+            <span>Scroll down</span>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="row">
+          <div class="lower">
+            <div class="first-block">
+              <div class="logo-box">
+                <a href="/"><img src="images/logo-footer.png" alt="logo" /></a>
+              </div>
+              <div class="copyright">
+                <p>
+                  <span>© 2022 metafiyielders.com, Inc.</span>
+                  <span>All rights reserved.</span>
+                  <br />
+                  <span style="color: #000; font-weight: bold"
+                    >Company's Address:</span
+                  >
+                  <span>16 Jones Street, BLACKTOWN </span>
+                  <span>NSW 2148</span>
+                </p>
+              </div>
+            </div>
+            <div class="footer-nav">
+              <ul class="list">
+                <li class="item"><a href="/">Home</a></li>
+                <li class="item"><a href="?a=investments">Investments</a></li>
+                <li class="item"><a href="?a=partners">Partners</a></li>
+              </ul>
+              <ul class="list">
+                <li class="item"><a href="?a=faq">Help</a></li>
+                <li class="item"><a href="?a=rules">Terms of use</a></li>
+                <li class="item"><a href="?a=support">Support</a></li>
+              </ul>
+              <ul class="list">
+                <li class="item"><a href="?a=login">Login</a></li>
+                <li class="item"><a href="?a=signup">Register</a></li>
+                <li class="item"></li>
+              </ul>
+            </div>
+            <div class="last-block">
+              <div class="btn-row">
+                <a target="_blank" href="#" class="btn-limpid">
+                  <i class="icon-paper-plane"></i>
+                  <span>Support</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <a
+      href="https://metafiyielders.com/?ref=chiba"
+      style="
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999999;
+        background: #ffffff00;
+      "
+    ></a>
+
+    <script src="js/rangeslider.js"></script>
+    <script src="js/fullpage.min.js"></script>
+    <script src="js/carousel.min.js"></script>
+    <script src="js/jquery.lazy.min.js"></script>
+    <script src="js/pixi.min.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/buttonanimationdata.js"></script>
+    <script src="js/buttonAnimation.js"></script>
+    <script src="js/main-sc.js"></script>
+    <script type="text/javascript">
+      window.$crisp = [];
+      window.CRISP_WEBSITE_ID = "6fbd2eea-84e4-49c9-8188-39d3ef40fe2d";
+      (function () {
+        d = document;
+        s = d.createElement("script");
+        s.src = "https://client.crisp.chat/l.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })();
+    </script>
+  </body>
+</html>
