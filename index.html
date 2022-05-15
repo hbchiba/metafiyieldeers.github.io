@@ -36,8 +36,6 @@
           /></a>
 
           <style>
-            .hung {
-            }
             .lang {
               display: block;
               width: 70px;
@@ -188,25 +186,25 @@
                     <div class="selecinfo">
                       <div class="selection_cc">
                         <div
-                          class="selcoin row_cc"
+                          class="selcorn row_cc"
                           tabindex="0"
                           role="list"
-                          onclick="show_coins()"
+                          onclick="show_corns()"
                           style="width: 90%"
                           id="currencies"
                         >
                           <img
                             class="col_cc"
-                            src="images/bitcoin.png"
+                            src="images/bitcorn.png"
                             width="25"
                             height="25"
-                            data-coin="1"
+                            data-corn="1"
                             style="max-width: 25px; max-height: 25px"
                             id="curr_img"
                           />
                           <p class="col_cc imgp" id="curr_p">btc</p>
                         </div>
-                        <div class="coinarrow">
+                        <div class="cornarrow">
                           <img
                             src="images/arrow-up.png"
                             width="13"
@@ -225,7 +223,7 @@
                         class="lable2"
                         style="color: #000000 !important; font-size: 18px"
                       >
-                        Crypto
+                        cryqto
                       </p>
                     </div>
                     <div class="amount2">
@@ -315,24 +313,24 @@
                     </div>
                   </div>
                   <div
-                    class="coin_list"
-                    id="coins_list"
+                    class="corn_list"
+                    id="corns_list"
                     style="z-index: 99; top: 75px; left: 15px; display: none"
                   >
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
-                      onclick="change_currency('bitcoin')"
+                      class="corn_item"
+                      onclick="change_currency('bitcorn')"
                     >
-                      <img src="images/bitcoin.png" alt="Bitcoin" /><span
-                        >Bitcoin</span
+                      <img src="images/bitcorn.png" alt="Bitcorn" /><span
+                        >Bitcorn</span
                       >
                     </div>
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
+                      class="corn_item"
                       onclick="change_currency('ethereum')"
                     >
                       <img src="images/ethereum.png" alt="Ether" /><span
@@ -342,7 +340,7 @@
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
+                      class="corn_item"
                       onclick="change_currency('solana')"
                     >
                       <img src="images/solana.png" alt="Solana" /><span
@@ -352,7 +350,7 @@
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
+                      class="corn_item"
                       onclick="change_currency('cardano')"
                     >
                       <img src="images/cardano.png" alt="Cardano" /><span
@@ -362,7 +360,7 @@
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
+                      class="corn_item"
                       onclick="change_currency('polkadot')"
                     >
                       <img src="images/polkadot.png" alt="Polkadot" /><span
@@ -372,7 +370,7 @@
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
+                      class="corn_item"
                       onclick="change_currency('avalanche')"
                     >
                       <img src="images/avalanche.png" alt="Avalanche" /><span
@@ -382,7 +380,7 @@
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
+                      class="corn_item"
                       onclick="change_currency('doge')"
                     >
                       <img src="images/doge.png" alt="Doge" /><span>Doge</span>
@@ -390,7 +388,7 @@
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
+                      class="corn_item"
                       onclick="change_currency('polygon')"
                     >
                       <img src="images/polygon.png" alt="Polygon" /><span
@@ -400,17 +398,17 @@
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
-                      onclick="change_currency('litecoin')"
+                      class="corn_item"
+                      onclick="change_currency('litecorn')"
                     >
-                      <img src="images/litecoin.png" alt="Litecoin" /><span
-                        >Litecoin</span
+                      <img src="images/litecorn.png" alt="Litecorn" /><span
+                        >Litecorn</span
                       >
                     </div>
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
+                      class="corn_item"
                       onclick="change_currency('uni')"
                     >
                       <img src="images/uni.png" alt="UNI" /><span>UNI</span>
@@ -418,7 +416,7 @@
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
+                      class="corn_item"
                       onclick="change_currency('link')"
                     >
                       <img src="images/link.png" alt="LINK" /><span>LINK</span>
@@ -426,7 +424,7 @@
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
+                      class="corn_item"
                       onclick="change_currency('algorand')"
                     >
                       <img src="images/algorand.png" alt="Algorand" /><span
@@ -436,28 +434,28 @@
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
-                      onclick="change_currency('bitcoin-cash')"
+                      class="corn_item"
+                      onclick="change_currency('bitcorn-cash')"
                     >
                       <img
-                        src="images/bitcoin-cash.png"
-                        alt="Bitcoin Cash"
-                      /><span>Bitcoin Cash</span>
+                        src="images/bitcorn-cash.png"
+                        alt="Bitcorn Cash"
+                      /><span>Bitcorn Cash</span>
                     </div>
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
-                      onclick="change_currency('filecoin')"
+                      class="corn_item"
+                      onclick="change_currency('filecorn')"
                     >
-                      <img src="images/filecoin.png" alt="Filecoin" /><span
-                        >Filecoin</span
+                      <img src="images/filecorn.png" alt="Filecorn" /><span
+                        >Filecorn</span
                       >
                     </div>
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
+                      class="corn_item"
                       onclick="change_currency('usdt')"
                     >
                       <img src="images/usdt.png" alt="USDT" /><span>USDT</span>
@@ -465,7 +463,7 @@
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
+                      class="corn_item"
                       onclick="change_currency('usdc')"
                     >
                       <img src="images/usdc.png" alt="USDC" /><span>USDC</span>
@@ -473,7 +471,7 @@
                     <div
                       role="button"
                       tabindex="0"
-                      class="coin_item"
+                      class="corn_item"
                       onclick="change_currency('busd')"
                     >
                       <img src="images/busd.png" alt="BUSD" /><span>BUSD</span>
@@ -514,7 +512,7 @@
                       <div class="ePSWLS">USD Interest Per Day</div>
                       <div class="mAZgN">
                         <img
-                          src="images/bitcoin.png"
+                          src="images/bitcorn.png"
                           id="curr_img_b"
                           style="position: absolute"
                         />
@@ -562,58 +560,48 @@
               </div>
 
               <script>
-                var coins = [
-                  "bitcoin",
-                  "ethereum",
-                  "solana",
-                  "cardano",
-                  "polkadot",
-                  "avalanche",
-                  "doge",
-                  "polygon",
-                  "litecoin",
-                  "uni",
-                  "link",
-                  "algorand",
-                  "bitcoin-cash",
-                  "filecoin",
-                  "usdt",
-                  "usdc",
-                  "busd",
+                var corns = [
+                  "Apple",
+                  "Apricots",
+                  "Avocado",
+                  "Banana",
+                  "Blackberries",
+                  "Blackcurrant",
+                  "Blueberries",
                 ];
 
-                var current_coin = "bitcoin";
-                var current_coin_id = 0;
-                var coin_ids = coins.length;
+                var current_corn = "bitcorn";
+                var current_corn_id = 0;
+                var corn_ids = corns.length;
 
                 function change_currency_up() {
-                  if (current_coin_id + 1 >= coin_ids) {
-                    current_coin_id = 0;
+                  if (current_corn_id + 1 >= corn_ids) {
+                    current_corn_id = 0;
                   } else {
-                    current_coin_id++;
+                    current_corn_id++;
                   }
-                  change_currency(coins[current_coin_id], false);
+                  change_currency(corns[current_corn_id], false);
                 }
 
                 function change_currency_down() {
-                  if (current_coin_id <= 0) {
-                    current_coin_id = coin_ids - 1;
+                  if (current_corn_id <= 0) {
+                    current_corn_id = corn_ids - 1;
                   } else {
-                    current_coin_id--;
+                    current_corn_id--;
                   }
-                  change_currency(coins[current_coin_id], false);
+                  change_currency(corns[current_corn_id], false);
                 }
 
-                function change_currency(currency, showcoins = true) {
-                  var img_src = "assets/images/cryptos/" + currency + ".png";
-                  var coin_id = coins.indexOf(currency);
+                function change_currency(currency, showcorns = true) {
+                  var img_src = "assets/images/cryqtos/" + currency + ".png";
+                  var corn_id = corns.indexOf(currency);
                   jQuery("#curr_img")
-                    .data("coin", coin_id)
+                    .data("corn", corn_id)
                     .attr("src", img_src);
                   jQuery("#curr_img_b").attr("src", img_src);
                   jQuery("#curr_p").html(currency);
-                  if (showcoins) {
-                    show_coins();
+                  if (showcorns) {
+                    show_corns();
                   }
                 }
 
@@ -628,8 +616,8 @@
                   client_y = (elementOffset.top - client_y) / 2;
                 });
 
-                function show_coins() {
-                  jQuery("#coins_list")
+                function show_corns() {
+                  jQuery("#corns_list")
                     .css({ top: client_y, left: client_x })
                     .toggle("display");
                   console.log({ top: client_y, left: client_x });
@@ -765,7 +753,7 @@
                 </div>
                 <div class="a-wrapper delay-0">
                   <h3>
-                    Profits Without Risk on the Crypto you Invest, stake or
+                    Profits Without Risk on the cryqto you Invest, stake or
                     transfer
                   </h3>
                 </div>
@@ -788,7 +776,7 @@
                   </div>
                   <p>
                     Our Platform gives you access to amazing interest by
-                    combining the exciting crypto market, our experienced
+                    combining the exciting cryqto market, our experienced
                     investment team and a simple and secure platform to give you
                     most reliable returns on your investment.
                   </p>
@@ -912,7 +900,7 @@
               </div>
               <div class="a-wrapper delay-1">
                 <p>
-                  Negotiate crypto interest rates, fiat borrowing, and trading
+                  Negotiate cryqto interest rates, fiat borrowing, and trading
                   costs.
                 </p>
               </div>
@@ -1123,7 +1111,7 @@
           <div class="row">
             <div class="small-12 medium-6 large-5 column text-container">
               <div class="a-wrapper">
-                <h2>Securing your Crypto</h2>
+                <h2>Securing your cryqto</h2>
               </div>
               <div class="a-wrapper delay-0">
                 <h3>
@@ -1137,7 +1125,7 @@
                   and address whitelisting to ensure that your assets are safe
                   whilst you invest and earn. We take security very seriously to
                   ensure that you have the tools to buy, Invest and earn income
-                  on your crypto as safely as possible.!
+                  on your cryqto as safely as possible.!
                 </p>
               </div>
               <div class="a-wrapper delay-2 btn-wrap">
